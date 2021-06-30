@@ -1,0 +1,484 @@
+@media screen and(min-width: 769px) {
+  .icon-menu {
+      padding-top: 42px;
+      padding-left: 34px;
+      padding-bottom: 42px;
+    }
+    .icon-menu-shop {
+      padding-top: 42px;
+      padding-right: 18px;
+    }
+}
+@media screen and(min-width: 769px) {
+  .icon-menu-shop {
+    padding-top: 42px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .main-page {
+    width: 100%;
+    position: relative;
+    background-image: url(../img/laptop-main-page.png);
+    background-size: 100%;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: transparent;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 122, 0, 0.6) -25.94%,
+        rgba(255, 122, 0, 0) 100%
+      );
+    }
+  }
+  @media screen and (min-width: 769px) {
+    .search-wrapper {
+      .search-section-element {
+        .search-field-input {
+          background-position: 3%;
+        }
+      }
+    }
+    @media screen and(min-width: 769px) {
+      .filters-block {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 56px;
+        background: #ffffff;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+      }
+      .filters {
+        .filters-bg {
+        }
+        .filters-popup {
+          padding: 80px 24px 0 24px;
+          top: -625px;
+          left: 0;
+          width: 330px;
+          box-shadow: 0px 26px 25px -10px #dfdfdf;
+        }
+      }
+    }
+    @media screen and (min-width: 769px) {
+      .filters-title {
+        padding-top: 32px;
+        padding-left: 16px;
+    
+        span {
+          font-size: 29px;
+          font-weight: 700;
+          text-transform: capitalize;
+        }
+        img {
+          padding-top: 9px;
+          padding-left: 13px;
+        }
+      }
+      .filters-icon img {
+        padding-right: 20px;
+        margin: 0;
+      }
+    }
+    @media screen and (min-width: 769px) {
+      .popular-product-section {
+        .point-popular-product {
+          padding-left: 64px;
+          img {
+            padding: 8px 8px;
+            width: 28px;
+            height: 28px;
+          }
+        }
+        .popular-product-title {
+          & h2 {
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 769px) {
+      .footer {
+        padding-top: 40px;
+        .footer-wrapper {
+          padding-left: 32px;
+          display: flex;
+          .footer-elements-not-logo {
+              flex-direction: row;
+          }
+          .footer-logo {
+            padding-top: 0;
+          }
+        }
+        .footer-menu :nth-child(2),
+        .footer-menu :nth-child(3),
+        .footer-menu :nth-child(4){
+            padding-left: 32px;
+        }
+    
+        .footer-menu {
+          margin-top: 0;
+          padding-right: 130px;
+  
+    
+          .menu-element {
+            padding-bottom: 24px;
+          }
+    
+          .active-link {
+            a {
+              padding: 0;
+            }
+          }
+          .active-link {
+            img {
+              padding-top: 7px;
+              padding-right: 10px;
+            }
+          }
+        }
+        & .shop-contacts {
+          margin-top: 0;
+          padding-bottom: 100px;
+    
+          .contacts-heading {
+            margin-top: 0;
+          }
+        }
+        .footer-elements-not-logo {
+          padding-left: 90px;
+        }
+      }
+      .menu-adress-wrapper {
+        .shop-adress {
+          padding-left: 15px;
+        }
+      }
+      .contacts-follow-wrapper {
+        & .contacts-heading {
+          padding-bottom: 24px;
+        }
+        .shop-email {
+          padding-bottom: 12px;
+        }
+      }
+      .footer {
+        .follow-us {
+          .contacts-heading {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+    @media screen and(min-width: 1989px) {
+      .filters {
+        .filters-popup {
+          top: 89px;
+          width: 300px;
+          padding: 32px 8px 0 8px;
+          left: 15px;
+          min-width: 310px;
+          transform: translateX(0);
+          box-shadow: 0px 26px 25px -2px #dfdfdf;
+          z-index: 0;
+    
+          .close-button {
+            display: none;
+          }
+        }
+      }
+    }
+  @media screen and (min-width: 1980px) {
+    .search-wrapper {
+      .search-section-element {
+        .search-field-input {
+          background-position: 3%;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1980px) {
+    .item-shop-wrapper {
+      padding: 30px 0;
+      justify-content: center;
+  
+      .item-shop-block:nth-child(2) {
+        padding-right: 57px;
+        padding-left: 57px;
+      }
+      .item-shop-block:nth-child(5) {
+        padding-left: 57px;
+        padding-right: 57px;
+      }
+  
+      .four-elemetn {
+        padding-left: 57px;
+      }
+    }
+  }
+  @media screen and (min-width: 1980px) {
+    .filters-icon {
+      display: none;
+    }
+    .filters-block {
+      width: 310px;
+      margin: 0;
+    }
+    .filters-title {
+      padding-top: 32px;
+      padding-left: 16px;
+  
+      span {
+        font-size: 32px;
+      }
+      img {
+        padding-top: 9px;
+        padding-left: 13px;
+      }
+    }
+  }
+  @media screen and (min-width: 1998px) {
+    .popular-product-section {
+      .point-popular-product {
+        padding-left: 359px;
+        img {
+          padding: 8px 8px;
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .popular-product-title {
+        & h2 {
+          font-size: 64px;
+          line-height: 39px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1980px) {
+    .desctop-wrapper {
+      display: flex;
+      padding-left: 359px;
+      padding-right: 380px;
+      padding-top: 64px;
+    }
+    .main-page {
+      background: url(/img/main-page.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .select-sale-item {
+      padding-left: 350px;
+    }
+  
+    .sale-price {
+      span {
+        font-size: 250px;
+      }
+  
+      .item-sale {
+        font-size: 100px;
+      }
+    }
+    .brandy {
+      span {
+        font-size: 80px;
+      }
+    }
+  
+    .form-row {
+      padding-left: 350px;
+      padding-right: 850px;
+    }
+  
+    .header-menu {
+      .brand-logo {
+        display: flex;
+        padding-left: 360px;
+        padding-top: 32px;
+        .point-shop-logo {
+            padding-top: 10px;
+        }
+      }
+      .contact-block {
+        padding-top: 44px;
+        padding-bottom: 44px;
+  
+        & ul .active {
+          padding-left: 0;
+  
+          a {
+            color: $main-brand-color;
+            font-weight: 700;
+          }
+  
+          img {
+            padding-top: 8px;
+            padding-right: 4px;
+            padding-left: 63px;
+          }
+        }
+        & ul {
+          display: flex;
+  
+          li {
+            padding-left: 44px;
+  
+            a {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .burger-user-button {
+        display: flex;
+        height: 50%;
+        padding-top: 24px;
+        padding-right: 360px;
+  
+        & .book-now-button {
+          background: $main-brand-color;
+          border-radius: 4px;
+  
+          & button {
+            text-align: center;
+            width: 100%;
+            padding: 16px 32px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: $text-brand-color;
+            text-transform: uppercase;
+          }
+        }
+  
+        & .contact-us-button {
+          border: 1px solid #fff2e5;
+          border-radius: 4px;
+          margin-right: 8px;
+  
+          & button {
+            text-align: center;
+            width: 100%;
+            padding: 16px 32px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: $text-brand-color;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .burger-user-button {
+      display: block;
+    }
+    .contact-block {
+      display: block;
+    }
+    .brand-logo {
+      display: block;
+    }
+    .icon-menu {
+      display: none;
+    }
+    .icon-menu-shop {
+      padding-top: 39px;
+      position: absolute;
+      right: 0;
+      padding-right: 730px;
+    }
+  }
+  @media screen and (min-width: 1980px) {
+    .footer-wrapper {
+      display: flex;
+  
+      .footer-elements-not-logo {
+        margin-left: 90px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .shop-email {
+        margin-top: 32px;
+        margin-bottom: 24px;
+      }
+      .menu-element {
+        padding-bottom: 24px;
+      }
+  
+      .footer-logo {
+        padding-top: 0;
+      }
+  
+      .menu-adress-wrapper {
+        display: flex;
+  
+        .footer-menu {
+          margin-top: 0;
+  
+          .active-link {
+            a {
+              padding: 0;
+            }
+          }
+          .active-link {
+            img {
+              padding-top: 7px;
+              padding-right: 10px;
+            }
+          }
+        }
+  
+        .shop-adress {
+          margin-top: 0;
+          padding-left: 341px;
+          padding-right: 67px;
+        }
+  
+        .adress-heading {
+          margin-top: 0;
+          padding-bottom: 32px;
+        }
+  
+        .shop-city {
+          padding-bottom: 24px;
+        }
+      }
+    }
+    .contacts-follow-wrapper {
+      display: flex;
+  
+      .shop-contacts {
+        margin-top: 0;
+        padding-right: 100px;
+  
+        .contacts-heading {
+          margin-top: 0;
+        }
+      }
+      .follow-us {
+        margin-top: 0;
+  
+        .contacts-heading {
+          margin-top: 0;
+        }
+      }
+    }
+  }
